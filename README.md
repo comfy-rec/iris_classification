@@ -1,3 +1,3 @@
-# iris_clssification
+# supervised learning
 
 3 class
