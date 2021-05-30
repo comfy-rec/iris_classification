@@ -40,6 +40,6 @@ there are 50 samples of each class.
 
 30 samples, 3 classes(setosa, versicolor, virginica)
 
-## Usage
+## usage
 
 iris.py
