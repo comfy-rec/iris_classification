@@ -46,7 +46,7 @@ model.add(Dense(3, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.summary()
 
-# 학습 시켜야죠
+# 학습
 history = model.fit(X_train, y_train, validation_data=(x_test, y_test), epochs=100, verbose=1)
 
 print('\n')
