@@ -1,6 +1,6 @@
 # iris classification
 
-3 class
+a keras implementation of simple dnn model based 3 classes(setosa, versicolor, virginica) classification on supervised learning.
 
 ## requirements
 
@@ -24,23 +24,22 @@ pycharm
 
 ## datasets
 
-cifar10
+iris
 
-cifar10 dataset is a collection of images, widely used datasets for machine learning.
+iris dataset is widely used datasets for machine learning.
 
-cifar10 dataset contains 60000 32x32 pixels color images in 10 different classes.
+iris dataset contains 150 samples in 3 different classes.
 
-there are 6000 images of each class.
+there are 50 samples of each class.
 
 ### train
 
-50000 images, 10 classes(airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck)
-
-data augmentation - rotation, width shift, height shift, horizontal flip
+120 samples, 3 classes(setosa, versicolor, virginica)
 
 ### test
 
-10000 images, 10 classes(airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck)
+30 samples, 3 classes(setosa, versicolor, virginica)
 
 ## Usage
 
+iris.py
